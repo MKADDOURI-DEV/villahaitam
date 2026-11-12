@@ -53,7 +53,7 @@ export default function Header() {
         <div className="header-inner">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 logo-link">
-            <AppLogo size={36} />
+            <AppLogo src="/assets/images/logo-mark.png" size={44} />
             <span className="font-display text-lg tracking-widest uppercase font-semibold hidden sm:block">
               Villa Haitam
             </span>

@@ -16,7 +16,7 @@ export default function Footer() {
         {/* Left: Logo + tagline + contact */}
         <div className="footer-left">
           <div className="flex items-center gap-2 mb-3">
-            <AppLogo size={32} />
+            <AppLogo src="/assets/images/logo-mark.png" size={40} />
             <span className="font-display text-base tracking-widest uppercase font-semibold text-foreground">
               Villa Haitam
             </span>

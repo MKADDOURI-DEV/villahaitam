@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
-import AppImage from "@/components/ui/AppImage";
 import { useLanguage } from "@/context/LanguageContext";
 import { t } from "@/data/translations";
 import { getWhatsAppUrl } from "@/data/siteConfig";
@@ -45,13 +44,17 @@ export default function HeroSection() {
     <section ref={heroRef} className="hero-section" id="hero" dir={dir}>
       {/* Parallax Background */}
       <div className="hero-parallax-bg">
-        <AppImage
-          src="/assets/images/villa/piscine.jpg"
-          alt="Villa Haitam: piscine privée entourée de palmiers et de verdure au coucher du soleil"
-          fill
-          priority
-          sizes="100vw"
-          className="hero-bg-img" />
+        <video
+          className="hero-bg-img absolute inset-0 w-full h-full"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/assets/images/villa/piscine.jpg"
+          aria-hidden="true">
+          <source src="/assets/video/hero.mp4" type="video/mp4" />
+        </video>
         
         <div className="hero-overlay" />
       </div>
