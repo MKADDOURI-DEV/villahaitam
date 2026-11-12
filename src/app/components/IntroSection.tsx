@@ -45,8 +45,8 @@ export default function IntroSection() {
         <div className="intro-image-col reveal-item" style={{ opacity: 0, transform: "translateY(30px)", transition: "opacity 0.9s cubic-bezier(0.16,1,0.3,1), transform 0.9s cubic-bezier(0.16,1,0.3,1)" }}>
           <div className="intro-img-wrap">
             <AppImage
-              src="https://images.unsplash.com/photo-1628876686954-799063157243"
-              alt="Luxury Moroccan villa courtyard with traditional architecture, warm stone walls and lush green plants"
+              src="/assets/images/villa/salon-a.jpg-799063157243"
+              alt="Salon marocain traditionnel de la villa avec banquettes et plafond en bois sculpté"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="intro-img" />

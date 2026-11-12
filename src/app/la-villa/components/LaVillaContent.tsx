@@ -35,8 +35,8 @@ export default function LaVillaContent() {
       {/* Page Hero */}
       <div className="page-hero">
         <AppImage
-          src="https://img.rocket.new/generatedImages/rocket_gen_img_16ce7a200-1767784382540.png"
-          alt="Aerial view of a Moroccan luxury villa with private pool surrounded by palm trees, warm terracotta and lush garden, deep shadows and atmospheric golden light"
+          src="/assets/images/villa/piscine.jpg"
+          alt="Villa Haitam: piscine privée et jardin"
           fill
           priority
           sizes="100vw"
@@ -78,8 +78,8 @@ export default function LaVillaContent() {
             <div className="villa-intro-img-col">
               <div className="villa-intro-img-wrap">
                 <AppImage
-                  src="https://img.rocket.new/generatedImages/rocket_gen_img_11c05f051-1772250211690.png"
-                  alt="Moroccan villa courtyard with traditional riad architecture, warm stone walls, lush plants and dappled light"
+                  src="/assets/images/villa/salon-b.jpg"
+                  alt="Salon marocain de la villa ouvrant sur le jardin"
                   fill
                   sizes="(max-width: 768px) 100vw, 45vw"
                   className="object-cover" />
@@ -115,8 +115,8 @@ export default function LaVillaContent() {
       <section className="villa-pool-feature">
         <div className="villa-pool-img-wrap">
           <AppImage
-            src="https://images.unsplash.com/photo-1675271875600-ec62be271966"
-            alt="Private swimming pool with turquoise water surrounded by palm trees and lush garden at Moroccan villa, bright sunny day"
+            src="/assets/images/villa/piscine.jpg"
+            alt="Piscine privée de la villa entourée de jardin et de palmiers"
             fill
             sizes="100vw"
             className="object-cover" />

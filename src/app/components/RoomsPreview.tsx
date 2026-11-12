@@ -15,8 +15,8 @@ const ROOMS = [
   descEn: "Spacious bright room with garden and pool views. Private bathroom with shower and bathtub.",
   descAr: "غرفة فسيحة ومضيئة مع إطلالة على الحديقة والمسبح. حمام خاص مع دش وحوض استحمام.",
   capacity: "2-3",
-  image: "https://images.unsplash.com/photo-1721216596273-586bfde422e7",
-  alt: "Luxury Moroccan master bedroom with warm terracotta walls, white linen, natural light from garden-facing windows",
+  image: "/assets/images/villa/chambre-1-a.jpg",
+  alt: "Suite principale avec grand lit, canapé et accès au jardin",
   features: ["Wi-Fi", "Climatisation", "Salle de bain privée"]
 },
 {
@@ -28,8 +28,8 @@ const ROOMS = [
   descEn: "Comfortable room opening directly onto the lush garden. Warm and authentic decoration.",
   descAr: "غرفة مريحة تفتح مباشرة على الحديقة الخضراء. ديكور دافئ وأصيل.",
   capacity: "2",
-  image: "https://img.rocket.new/generatedImages/rocket_gen_img_4a58aaa5d-1790934921462.png",
-  alt: "Cozy Moroccan bedroom with terracotta accents, wooden furniture and soft morning light through garden doors",
+  image: "/assets/images/villa/chambre-2-a.jpg",
+  alt: "Chambre Jardin avec lit double, fauteuil et porte-fenêtre sur le jardin",
   features: ["Wi-Fi", "Climatisation", "Vue jardin"]
 },
 {
@@ -41,8 +41,8 @@ const ROOMS = [
   descEn: "Room with access to a private terrace. Perfect for enjoying sunsets over Marrakech.",
   descAr: "غرفة مع إمكانية الوصول إلى شرفة خاصة. مثالية للاستمتاع بغروب الشمس فوق مراكش.",
   capacity: "2-4",
-  image: "https://img.rocket.new/generatedImages/rocket_gen_img_11a08d8b3-1778777382071.png",
-  alt: "Warm Moroccan bedroom with access to private terrace, golden sunset light, traditional zellige tile details",
+  image: "/assets/images/villa/chambre-3.jpg",
+  alt: "Chambre Terrasse avec lit double, berceau et balcon",
   features: ["Wi-Fi", "Climatisation", "Terrasse privée"]
 }];
 

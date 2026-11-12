@@ -46,8 +46,8 @@ export default function HeroSection() {
       {/* Parallax Background */}
       <div className="hero-parallax-bg">
         <AppImage
-          src="https://img.rocket.new/generatedImages/rocket_gen_img_1c9fd0dc3-1772622671317.png"
-          alt="Villa with private pool surrounded by palm trees and lush garden at golden hour, warm terracotta tones, deep shadows"
+          src="/assets/images/villa/piscine.jpg"
+          alt="Villa Haitam: piscine privée entourée de palmiers et de verdure au coucher du soleil"
           fill
           priority
           sizes="100vw"

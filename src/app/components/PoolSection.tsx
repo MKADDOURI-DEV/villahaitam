@@ -28,8 +28,8 @@ export default function PoolSection() {
       {/* Parallax bg */}
       <div ref={bgRef} className="pool-parallax-bg">
         <AppImage
-          src="https://images.unsplash.com/photo-1715125176619-7f31842f0e74"
-          alt="Private outdoor pool surrounded by palm trees and garden at a Moroccan villa, bright turquoise water, deep blue sky, sun loungers"
+          src="/assets/images/villa/terrasse.jpg-7f31842f0e74"
+          alt="Terrasse de la villa avec vue sur la piscine, les palmiers et le jardin"
           fill
           sizes="100vw"
           className="pool-bg-img" />

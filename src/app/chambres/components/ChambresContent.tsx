@@ -25,12 +25,12 @@ const ROOMS = [
   view: { fr: "Jardin & Piscine", en: "Garden & Pool", ar: "الحديقة والمسبح" },
   images: [
   {
-    src: "https://img.rocket.new/generatedImages/rocket_gen_img_1696b88e8-1772057043546.png",
-    alt: "Luxury master suite bedroom with warm terracotta walls, white linen, garden view, natural morning light"
+    src: "/assets/images/villa/chambre-1-a.jpg",
+    alt: "Suite principale avec grand lit, canapé et porte-fenêtre sur le jardin"
   },
   {
-    src: "https://images.unsplash.com/photo-1723259457609-fe1eaf02cf77",
-    alt: "Modern private bathroom with white marble, warm lighting, Moroccan tile accents"
+    src: "/assets/images/villa/chambre-1-b.jpg",
+    alt: "Suite principale: lit, espace bureau, coin cuisine et télévision"
   }],
 
   amenities: ["Wi-Fi", "Climatisation", "Salle de bain privée", "Vue jardin", "Vue piscine"]
@@ -52,12 +52,12 @@ const ROOMS = [
   view: { fr: "Jardin", en: "Garden", ar: "الحديقة" },
   images: [
   {
-    src: "https://img.rocket.new/generatedImages/rocket_gen_img_1cf78b66d-1784052318574.png",
-    alt: "Cozy Moroccan garden room with warm wood furniture, terracotta details, soft natural light from garden doors"
+    src: "/assets/images/villa/chambre-2-a.jpg",
+    alt: "Chambre Jardin avec lit double, fauteuil fleuri et porte-fenêtre sur le jardin"
   },
   {
-    src: "https://images.unsplash.com/photo-1644162036280-97a514dee7ad",
-    alt: "Lush private garden view from room window, palm trees and flowering plants in morning light"
+    src: "/assets/images/villa/chambre-2-b.jpg",
+    alt: "Chambre Jardin: télévision, armoire et coin repas"
   }],
 
   amenities: ["Wi-Fi", "Climatisation", "Salle de bain privée", "Vue jardin", "Accès direct jardin"]
@@ -79,12 +79,12 @@ const ROOMS = [
   view: { fr: "Terrasse & Campagne", en: "Terrace & Countryside", ar: "الشرفة والريف" },
   images: [
   {
-    src: "https://img.rocket.new/generatedImages/rocket_gen_img_1667f3ed4-1785927081180.png",
-    alt: "Bright Moroccan room with private terrace access, golden sunset light streaming through, traditional zellige tile floor"
+    src: "/assets/images/villa/chambre-3.jpg",
+    alt: "Chambre Terrasse avec lit double, berceau en bois et accès balcon"
   },
   {
-    src: "https://img.rocket.new/generatedImages/rocket_gen_img_1ac138d85-1772209854785.png",
-    alt: "Private villa terrace with sun loungers overlooking Marrakech countryside, palm trees at dusk"
+    src: "/assets/images/villa/terrasse.jpg",
+    alt: "Terrasse de la villa avec vue sur la piscine et les palmiers"
   }],
 
   amenities: ["Wi-Fi", "Climatisation", "Salle de bain privée", "Terrasse privée", "Vue campagne"]
@@ -100,8 +100,8 @@ export default function ChambresContent() {
       {/* Page Hero */}
       <div className="page-hero">
         <AppImage
-          src="https://images.unsplash.com/photo-1721216596273-586bfde422e7"
-          alt="Elegant Moroccan villa bedroom with warm terracotta tones, white linen and garden view, dim atmospheric lighting"
+          src="/assets/images/villa/chambre-1-b.jpg"
+          alt="Suite principale de la villa avec grand lit et coin salon"
           fill
           priority
           sizes="100vw"

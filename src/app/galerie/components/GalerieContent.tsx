@@ -19,18 +19,21 @@ interface GalleryItem {
 }
 
 const GALLERY: GalleryItem[] = [
-{ id: 1, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1bdacc616-1771902895284.png", alt: "Moroccan villa exterior with private pool, palm trees, terracotta walls, golden afternoon light", category: "villa", captionFr: "Extérieur de la villa", captionEn: "Villa exterior", captionAr: "واجهة الفيلا" },
-{ id: 2, src: "https://img.rocket.new/generatedImages/rocket_gen_img_199dd8d5f-1772622672096.png", alt: "Private swimming pool surrounded by lush garden and palm trees at a Moroccan villa, turquoise water", category: "piscine", captionFr: "Piscine privée", captionEn: "Private pool", captionAr: "المسبح الخاص" },
-{ id: 3, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1576be1d1-1773166795046.png", alt: "Luxury master suite bedroom with warm terracotta walls, white linen, natural light, garden view", category: "chambres", captionFr: "Suite Principale", captionEn: "Master Suite", captionAr: "الجناح الرئيسي" },
-{ id: 4, src: "https://images.unsplash.com/photo-1708332753447-f25529f3fc72", alt: "Lush private garden with palm trees, flowering plants and stone pathways in warm sunlight", category: "jardin", captionFr: "Jardin privé", captionEn: "Private garden", captionAr: "الحديقة الخاصة" },
-{ id: 5, src: "https://img.rocket.new/generatedImages/rocket_gen_img_16b5cb96d-1766912802576.png", alt: "Outdoor terrace with sun loungers overlooking Marrakech countryside, palm trees at dusk", category: "terrasse", captionFr: "Terrasse", captionEn: "Terrace", captionAr: "الشرفة" },
-{ id: 6, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1857d9c88-1776458364592.png", alt: "Cozy Moroccan bedroom with terracotta accents, wooden furniture and soft morning light", category: "chambres", captionFr: "Chambre Jardin", captionEn: "Garden Room", captionAr: "غرفة الحديقة" },
-{ id: 7, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1cac2fd04-1765111002310.png", alt: "Jemaa el-Fna square Marrakech at sunset with food stalls, smoke and crowd, orange light", category: "marrakech", captionFr: "Jemaa el-Fna", captionEn: "Jemaa el-Fna", captionAr: "جامع الفنا" },
-{ id: 8, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1a7e4a4f8-1783858393331.png", alt: "Moroccan villa interior courtyard with traditional riad architecture, zellige tiles, warm stone", category: "villa", captionFr: "Cour intérieure", captionEn: "Inner courtyard", captionAr: "الفناء الداخلي" },
-{ id: 9, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1cf78b66d-1784052318574.png", alt: "Warm Moroccan bedroom with private terrace access, golden sunset light, traditional tile floor", category: "chambres", captionFr: "Chambre Terrasse", captionEn: "Terrace Room", captionAr: "غرفة الشرفة" },
-{ id: 10, src: "https://img.rocket.new/generatedImages/rocket_gen_img_19e8be197-1767795439559.png", alt: "Majorelle Garden Marrakech cobalt blue building surrounded by tropical plants and cacti", category: "marrakech", captionFr: "Jardin Majorelle", captionEn: "Majorelle Garden", captionAr: "حديقة ماجوريل" },
-{ id: 11, src: "https://images.unsplash.com/photo-1643858001483-e4f7839c5495", alt: "Moroccan villa outdoor dining area with terracotta pots, olive trees and evening lantern light", category: "exterieurs", captionFr: "Espace repas extérieur", captionEn: "Outdoor dining", captionAr: "مساحة الطعام الخارجية" },
-{ id: 12, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1f01e49fd-1772210725810.png", alt: "Bahia Palace Marrakech ornate Moorish archways with intricate zellige tilework and carved cedar ceilings", category: "marrakech", captionFr: "Palais Bahia", captionEn: "Bahia Palace", captionAr: "قصر الباهية" }];
+{ id: 1, src: "/assets/images/villa/salon-a.jpg", alt: "Salon marocain traditionnel avec banquettes et plafond en bois sculpté", category: "villa", captionFr: "Salon marocain", captionEn: "Moroccan lounge", captionAr: "الصالون المغربي" },
+{ id: 2, src: "/assets/images/villa/piscine.jpg", alt: "Piscine privée de la villa entourée de jardin et de palmiers", category: "piscine", captionFr: "Piscine privée", captionEn: "Private pool", captionAr: "المسبح الخاص" },
+{ id: 3, src: "/assets/images/villa/chambre-1-a.jpg", alt: "Suite principale avec grand lit et canapé", category: "chambres", captionFr: "Suite Principale", captionEn: "Master Suite", captionAr: "الجناح الرئيسي" },
+{ id: 4, src: "/assets/images/villa/terrasse.jpg", alt: "Terrasse de la villa avec vue sur la piscine et les palmiers", category: "terrasse", captionFr: "Terrasse", captionEn: "Terrace", captionAr: "الشرفة" },
+{ id: 5, src: "/assets/images/villa/chambre-2-a.jpg", alt: "Chambre Jardin avec lit double et porte-fenêtre sur le jardin", category: "chambres", captionFr: "Chambre Jardin", captionEn: "Garden Room", captionAr: "غرفة الحديقة" },
+{ id: 6, src: "/assets/images/villa/chambre-3.jpg", alt: "Chambre Terrasse avec lit double, berceau et balcon", category: "chambres", captionFr: "Chambre Terrasse", captionEn: "Terrace Room", captionAr: "غرفة الشرفة" },
+{ id: 7, src: "/assets/images/villa/salon-b.jpg", alt: "Salon marocain ouvrant sur le jardin", category: "villa", captionFr: "Salon & jardin", captionEn: "Lounge & garden", captionAr: "الصالون والحديقة" },
+{ id: 8, src: "/assets/images/villa/chambre-4-a.jpg", alt: "Chambre avec grand lit, canapé et accès jardin", category: "chambres", captionFr: "Chambre 4", captionEn: "Bedroom 4", captionAr: "الغرفة 4" },
+{ id: 9, src: "/assets/images/villa/chambre-5.jpg", alt: "Chambre avec deux lits et papier peint décoratif", category: "chambres", captionFr: "Chambre 5", captionEn: "Bedroom 5", captionAr: "الغرفة 5" },
+{ id: 10, src: "/assets/images/villa/chambre-1-b.jpg", alt: "Suite principale avec coin cuisine et télévision", category: "chambres", captionFr: "Suite Principale (coin salon)", captionEn: "Master Suite (living area)", captionAr: "الجناح الرئيسي (ركن الجلوس)" },
+{ id: 11, src: "/assets/images/villa/salle-de-bain.jpg", alt: "Salle de bain avec baignoire et zelliges", category: "villa", captionFr: "Salle de bain", captionEn: "Bathroom", captionAr: "الحمام" },
+{ id: 12, src: "/assets/images/villa/chambre-2-b.jpg", alt: "Chambre Jardin avec télévision et armoire", category: "chambres", captionFr: "Chambre Jardin", captionEn: "Garden Room", captionAr: "غرفة الحديقة" },
+{ id: 13, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1cac2fd04-1765111002310.png", alt: "Jemaa el-Fna square Marrakech at sunset with food stalls, smoke and crowd, orange light", category: "marrakech", captionFr: "Jemaa el-Fna", captionEn: "Jemaa el-Fna", captionAr: "جامع الفنا" },
+{ id: 14, src: "https://img.rocket.new/generatedImages/rocket_gen_img_19e8be197-1767795439559.png", alt: "Majorelle Garden Marrakech cobalt blue building surrounded by tropical plants and cacti", category: "marrakech", captionFr: "Jardin Majorelle", captionEn: "Majorelle Garden", captionAr: "حديقة ماجوريل" },
+{ id: 15, src: "https://img.rocket.new/generatedImages/rocket_gen_img_1f01e49fd-1772210725810.png", alt: "Bahia Palace Marrakech ornate Moorish archways with intricate zellige tilework and carved cedar ceilings", category: "marrakech", captionFr: "Palais Bahia", captionEn: "Bahia Palace", captionAr: "قصر الباهية" }];
 
 
 const CATS: {key: Category;labelKey: string;}[] = [
@@ -38,9 +41,7 @@ const CATS: {key: Category;labelKey: string;}[] = [
 { key: "villa", labelKey: "gallery.villa" },
 { key: "chambres", labelKey: "gallery.rooms" },
 { key: "piscine", labelKey: "gallery.pool" },
-{ key: "jardin", labelKey: "gallery.garden" },
 { key: "terrasse", labelKey: "gallery.terrace" },
-{ key: "exterieurs", labelKey: "gallery.exterior" },
 { key: "marrakech", labelKey: "gallery.marrakech" }];
 
 
